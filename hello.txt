@@ -1,3 +1,0 @@
-Hello!
-The second line for additional_branch!
-ADding another one line
