@@ -1,2 +1,3 @@
 VIM is the worst!
 Linux is not the same like Windows!
+Ubuntu is not so different to Arch
