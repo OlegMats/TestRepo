@@ -1,4 +1,0 @@
-empty file
-My name is Oleg
-My second name is Matskevich
-The last line.
