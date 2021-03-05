@@ -1,0 +1,8 @@
+Changes per java file with Factory
+
+classes Implementation1Factory and Implementation2Factory have gone as their realizations have been replaced by "inner classes"
+Constructors are private
+The method ServiceConsumer -> ServiceUser
+Variables:
+  (Service)s -> (Service)ser
+  (ServiceFactory)fact -> (ServiceFactory)serFact
