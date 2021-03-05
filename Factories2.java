@@ -1,14 +1,5 @@
 //interfaces
 
-interface Service {
-    void method1();
-    void method2();
-}
-
-interface ServiceFactory {
-    Service getService();
-}
-
 class Implementation1 implements Service {
 
     Implementation1() {
