@@ -1,4 +1,4 @@
-//removed from Factories2.java
+//updates short variant of Factories.java
 interface Service {
     void method1();
     void method2();
@@ -45,5 +45,17 @@ class Implementation2 implements Service {
 class Implementation2Factory implements ServiceFactory{
     public Service getService(){
         return new Implementation2();
+    }
+}
+public class Factories2 {
+    public static void serviceConsumer(ServiceFactory fact) {
+        Service s = fact.getService();
+        s.method1();
+        s.method2();
+    }
+
+    public static void main(String[] args) {
+        serviceConsumer(new Implementation1Factory());
+        serviceConsumer(new Implementation2Factory());
     }
 }
